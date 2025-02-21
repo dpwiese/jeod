@@ -550,7 +550,7 @@ public:
      * Copy constructor.
      */
     JeodMemoryTypePreDescriptorDerived(const JeodMemoryTypePreDescriptorDerived & src)
-        : is_exportable(src.exportable)
+        : is_exportable(src.is_exportable)
     {
         if(src.descriptor)
         {
