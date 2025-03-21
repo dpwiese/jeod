@@ -6,7 +6,6 @@ tools/
 bin/jeod_cm/
 .gitlab-ci.yml
 
-
 # build products
 *.[oa]
 *.so
@@ -69,9 +68,6 @@ metrixpp.db
 *.swp
 *~
 .nfs*
-
-# Any file starting with a dot.
-.*
 
 # ctags tags files
 tags
@@ -148,3 +144,7 @@ errorlog.txt
 # ephemeris artifacts
 JPL-DE*.bin
 **/de4xx_ephem/ascii
+
+# More stuff
+.DS_Store
+trickified/.trick
